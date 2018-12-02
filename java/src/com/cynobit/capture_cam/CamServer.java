@@ -6,4 +6,12 @@ package com.cynobit.capture_cam;
  */
 public class CamServer {
 
+    private int port;
+    private String adbPath;
+
+    public CamServer (int port, String adbPath) {
+        this.port = port;
+        this.adbPath = adbPath;
+    }
+
 }
