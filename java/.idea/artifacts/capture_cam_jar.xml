@@ -3,6 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/capture_cam_jar</output-path>
     <root id="archive" name="capture-cam.jar">
       <element id="module-output" name="capture-cam" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/java-json.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
